@@ -9,7 +9,9 @@ custom_difficulty = {
 	}
 	potential = {
 		is_ai = no
-		not = { has_global_flag = custom_difficulty_deactivate_edict }
-		NOT = { has_global_flag = dmm_installed }
+		NOR = {
+			has_global_flag = custom_difficulty_deactivate_edict
+			has_global_flag = dmm_installed
+		}
 	}
 }

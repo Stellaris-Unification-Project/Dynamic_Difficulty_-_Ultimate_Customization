@@ -183,8 +183,7 @@ country_event = {
 		if = {
 			limit = {
 				or = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
+					is_fallen_empire = yes
 					is_country_type = ascended_empire
 					is_country_type = eternal_empire
 				}
@@ -1216,8 +1215,7 @@ country_event = {
 		if = {
 			limit = {
 				or = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
+					is_fallen_empire = yes
 					is_country_type = ascended_empire
 					is_country_type = eternal_empire
 				}

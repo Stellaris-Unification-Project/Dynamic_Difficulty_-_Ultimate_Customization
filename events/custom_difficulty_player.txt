@@ -12,135 +12,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -274,135 +244,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -517,135 +457,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -724,135 +634,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -935,135 +815,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -1146,135 +996,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -1345,135 +1165,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -1544,135 +1334,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -1743,135 +1503,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -1942,135 +1672,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -2141,135 +1841,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -2340,135 +2010,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -2539,135 +2179,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -2738,135 +2348,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -2937,135 +2517,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -3136,135 +2686,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
@@ -3335,135 +2855,105 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_player_planets_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_systems_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_allShip_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_simple_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_station_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_station_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_station_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_jobs_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_jobs_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_jobs_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_cap_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_cap_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_cap_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_ship_cost_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_ship_cost_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_ship_cost_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_stability_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_stability_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_stability_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_diplo_upkeep_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_diplo_upkeep_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_diplo_upkeep_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_damage_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_damage_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_damage_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_hull_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_hull_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_hull_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_armor_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_armor_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_armor_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_shield_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_shield_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_shield_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}
 			success_text = {
 				text = custom_difficulty_player_fire_rate_desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = { which = custom_difficulty_player_fire_rate_value value = 0 }
-					}
+					check_variable = { which = custom_difficulty_player_fire_rate_value value != 0 }
 				}
 				has_global_flag = custom_difficulty_activate_custom_mode
 			}

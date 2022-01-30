@@ -354,12 +354,9 @@ country_event = {
 			success_text = {
 				text = custom_difficulty_random_handicap.desc
 				event_target:custom_difficulty_var_storage = {
-					not = {
-						check_variable = {
+					check_variable = {
 							which = custom_difficulty_random_handicap_perc
-							value = 0
-						}
-					}
+							value != 0 }
 				}
 			}
 		}
@@ -1030,7 +1027,7 @@ country_event = {
 	trigger = { NOT = { has_global_flag = custom_difficulty_random_difficulty_given } }
 	immediate = {
 		set_global_flag = custom_difficulty_random_difficulty_given
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_country_type = default
 				is_ai = yes
